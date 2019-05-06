@@ -1,0 +1,46 @@
+#topo img
+{
+    margin: 5%;
+    border: 1px solid #000;
+    padding: 70px;
+}
+
+#topo #icones
+{
+    float: right;
+    margin: 5%;
+    
+}
+
+#topo #menu .iconFacebook
+{
+    margin: 2%;
+}
+
+#menu
+{
+    margin: 0 5%;
+    width: 90%;
+}
+
+#corpo img
+{
+    border: 1px solid #000;
+    padding: 100px;
+    margin: 0 5%;
+    float: left;
+}
+
+#corpo #textIndex
+{
+    width: 95%;
+    text-align:  justify;
+}
+
+#rodape
+{
+    margin: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
