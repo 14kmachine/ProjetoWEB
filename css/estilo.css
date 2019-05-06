@@ -23,6 +23,11 @@
     width: 90%;
 }
 
+#corpo h1
+{
+    margin: 2% 5%;
+}
+
 #corpo img
 {
     border: 1px solid #000;
@@ -52,6 +57,28 @@
 #corpo #textoQuemSomosHistoria .imgQuemSomosHistoria2
 {
     margin: 0 5% 0 -2.4%;
+}
+
+#corpo .noticia
+{
+    border: solid 1px;
+    margin: 2% 6%;
+    width: 88%;
+}
+
+#corpo .noticia img
+{
+    float: left;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 2%;
+    padding: 5%;
+}
+
+#corpo .noticia p
+{
+    text-align: justify;
+    padding: 0 2%;
 }
 
 #rodape

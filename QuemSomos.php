@@ -46,7 +46,7 @@
                         <li><a href="index.php">Inicio</a></li>
                         <li class="active"><a href="QuemSomos.php">Quem Somos</a></li>
                         <li><a href="Historia.php">Historia</a></li>
-                        <li><a href="#">Noticias</a></li>
+                        <li><a href="Noticias.php">Noticias</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
    
@@ -55,6 +55,7 @@
         </div>
         
         <div id="corpo">
+            <h1>Quem Somos</h1>
             <img src="#" alt="IMAGEM1">
             <div id="textoQuemSomosHistoria">
                 <p>

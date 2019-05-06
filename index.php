@@ -46,7 +46,7 @@
                         <li class="active"><a href="index.php">Inicio</a></li>
                         <li><a href="QuemSomos.php">Quem Somos</a></li>
                         <li><a href="Historia.php">Historia</a></li>
-                        <li><a href="#">Noticias</a></li>
+                        <li><a href="Noticias.php">Noticias</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
    
@@ -55,6 +55,7 @@
         </div>
         
         <div id="corpo">
+            <h1>Bem Vindo ao nosso Site</h1>
             <img src="#" alt="IMAGEM"/>
             <div id="textIndex">
             <p>
