@@ -36,6 +36,18 @@
     width: 95%;
     text-align:  justify;
 }
+#corpo #textoQuemSomos
+{
+    width: 95%;
+    text-align: justify;
+    margin: 0 5%;
+    padding: 2%;
+}
+
+#corpo #textoQuemSomos img
+{
+    float: right;
+}
 
 #rodape
 {
