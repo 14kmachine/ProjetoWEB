@@ -47,7 +47,7 @@
                         <li class="active"><a href="QuemSomos.php">Quem Somos</a></li>
                         <li><a href="Historia.php">Historia</a></li>
                         <li><a href="Noticias.php">Noticias</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="Contato.php">Contato</a></li>
                     </ul>
    
                 </div>

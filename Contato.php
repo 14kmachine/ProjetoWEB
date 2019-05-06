@@ -40,14 +40,15 @@
         </div>
         
         <div id="menu">
+            
             <div class="navbar navbar-default">
                 <div class="container-fluid">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">Inicio</a></li>
+                        <li><a href="index.php">Inicio</a></li>
                         <li><a href="QuemSomos.php">Quem Somos</a></li>
-                        <li><a href="Historia.php">Historia</a></li>
+                        <li ><a href="Historia.php">Historia</a></li>
                         <li><a href="Noticias.php">Noticias</a></li>
-                        <li><a href="Contato.php">Contato</a></li>
+                        <li class="active"><a href="Contato.php">Contato</a></li>
                     </ul>
    
                 </div>
@@ -55,17 +56,32 @@
         </div>
         
         <div id="corpo">
-            <h1>Bem Vindo ao nosso Site</h1>
-            <img src="#" alt="IMAGEM"/>
-            <div id="textIndex">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>
-                Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi.
-            </p>
+            <h1>Contato</h1>
+            <div id="contato">
+                <!-- EMMET: FORM>(p+input)*6 -->
+                <FORM>
+                    <p>Nome Completo</p>
+                    <input placeholder="Digite seu nome" name="nome" type="text">
+                    <p>Email:</p>
+                    <input placeholder="Digite seu email" name="email" type="text">
+                    <p>Telefone</p>
+                    <input placeholder="(11)9-9999-9999" name="telefone" type="text">
+                    <p>Departamento</p>
+                    <select name="departamento">
+                        <option value="administrativo">Administrativo</option>
+                        <option value="diretoria">Diretoria</option>
+                        <option value="redacao">Redação</option>
+                        <option value="informatica">Informatica</option>
+                    </select>
+                    <p>Mensagem</p>
+                    <textarea></textarea> 
+                    <br>
+                    <input class="btn btn-success" type="submit"  value="ENVIAR">
+                </FORM>
             </div>
+            
 
+            
         </div>
         
         <div id="rodape">
@@ -74,3 +90,8 @@
         </div>
     </body>
 </html>
+
+
+
+
+
