@@ -36,17 +36,22 @@
     width: 95%;
     text-align:  justify;
 }
-#corpo #textoQuemSomos
+#corpo #textoQuemSomosHistoria
 {
-    width: 95%;
+    width: 90%;
     text-align: justify;
     margin: 0 5%;
     padding: 2%;
 }
 
-#corpo #textoQuemSomos img
+#corpo #textoQuemSomosHistoria .imgQuemSomosHistoria
 {
     float: right;
+}
+
+#corpo #textoQuemSomosHistoria .imgQuemSomosHistoria2
+{
+    margin: 0 5% 0 -2.4%;
 }
 
 #rodape
