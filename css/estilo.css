@@ -94,3 +94,16 @@
     font-weight: bold;
 }
 
+#login
+{
+    border: 1px solid;
+    width: 33%;
+    margin: 10% auto;
+    background-color: #ccc;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 2px 2px;
+    padding: 2%;
+        
+}
+

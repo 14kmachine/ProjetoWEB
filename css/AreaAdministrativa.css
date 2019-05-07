@@ -1,0 +1,24 @@
+#menu .navbar.navbar-default img
+{
+    float: left;
+    padding: 1%;
+}
+
+h1{margin: 5%;}
+
+#corpo .table.table-striped.table-hover
+{
+    margin: 5%;
+    width: 90%;
+}
+
+#rodape
+{
+    
+    position: absolute;
+    bottom: 0;
+    margin: 2% 36%;
+}
+
+
+
