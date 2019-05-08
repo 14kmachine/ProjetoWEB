@@ -12,11 +12,20 @@ h1{margin: 5%;}
     width: 90%;
 }
 
+#corpo #FormUsuario
+{
+    width: 20%;
+    margin: 2% auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 2%;
+    text-align: center;
+}
+
 #rodape
 {
     
     position: absolute;
-    bottom: 0;
     margin: 2% 36%;
 }
 

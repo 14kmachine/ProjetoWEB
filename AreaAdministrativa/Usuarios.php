@@ -1,4 +1,9 @@
+<?php
+    namespace ProjetoFinal;
+    include '../Classes/Usuario.php';
+?>
 <!DOCTYPE html>
+
 <!--
 -->
 <html>
@@ -40,8 +45,29 @@
             </div>
         </div>
         
-        <div id="corpo">
+        <div id="corpo" >
             <h1>Usuarios</h1>
+            <div id="FormUsuario">
+                <h2>Novo Usuario</h2>
+                <!-- EMMET:form>(p+input)*5+input*3 -->
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
+                    <p>ID</p>
+                    <input name="id" type="text">
+                    <p>Nome Completo</p>
+                    <input name="nome" type="text" autofocus="">
+                    <p>Email</p>
+                    <input name="email" type="text">
+                    <p>Usuario</p>
+                    <input name="usuario" type="text">
+                    <p>senha</p>
+                    <input name="senha" type="password">
+                    <br><br>                  
+                    <input name="opcao" type="submit" value="Inserir">
+                    <input name="opcao" type="submit" value="Atualizar">
+                    <input name="opcao" type="submit" value="Deletar">
+                </form>
+            </div>
+            
             
             <table class="table table-striped table-hover">
                 <tr>
@@ -79,4 +105,41 @@
         </div>
     </body>
 </html>
+
+<?php
+    if(isset($_GET['id'])&&
+           isset ($_GET['nome'])&&
+           isset ($_GET['email'])&&
+            isset ($_GET['usuario'])&&
+           isset ($_GET['senha']))
+    {
+
+        if(empty($_GET['nome'])||
+        empty($_GET['email'])||
+        empty($_GET['usuario'])||
+        empty($_GET['senha']))
+        {
+            echo "<script type='text/javascript'> alert ('nao deixe os campos em branco');</script>";
+        }
+        else
+        {
+            $id = $_GET['id'];
+            $nome = $_GET['nome'];  
+            $email= $_GET['email'];  
+            $usuario = $_GET['usuario'];  
+            $senha = $_GET['senha'];  
+            $u = new Usuario();
+            $resultado = $u->Inserir($nome, $usuario, $email, $senha);
+            
+           if($resultado == true)
+           {
+               echo "<script type='text/javascript'> alert ('cadastro realizado com sucesso');</script>";
+           }
+           else
+           {
+               echo "<script type='text/javascript'> alert ('deu ruim');</script>";
+           }
+        }
+    }
+
 
